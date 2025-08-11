@@ -1,1 +1,2 @@
-alert('Script malicioso carregado!');
+console.log('Script malicioso rodando!');
+document.body.style.backgroundColor = 'yellow';
