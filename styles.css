@@ -1,0 +1,272 @@
+/* Global Styles */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --accent-color: #e74c3c;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styles */
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 0.5rem 0 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.contact-info {
+    margin-top: 1rem;
+}
+
+.contact-info p {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.contact-info i {
+    margin-right: 0.5rem;
+}
+
+/* Navigation */
+nav {
+    background: var(--secondary-color);
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--light-color);
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 3rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.section h2 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+}
+
+.section h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--secondary-color);
+    margin: 0.5rem auto;
+}
+
+/* Experience Section */
+.job {
+    margin-bottom: 2.5rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job h3 {
+    color: var(--dark-color);
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.job h4 {
+    color: var(--secondary-color);
+    margin: 0.3rem 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.date {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.job ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.job li {
+    margin-bottom: 0.5rem;
+}
+
+/* Education Section */
+.education-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.education-item h3 {
+    color: var(--dark-color);
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.education-item h4 {
+    color: var(--secondary-color);
+    margin: 0.3rem 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.skill-category {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-category h3 {
+    color: var(--secondary-color);
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.skill-category li:last-child {
+    border-bottom: none;
+}
+
+/* Certifications & Languages */
+.certifications-list, .languages-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.certifications-list li, .languages-list li {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav li {
+        margin: 0.5rem 0;
+    }
+    
+    .contact-info p {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
