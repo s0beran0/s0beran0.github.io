@@ -3,216 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo Benck - DevOps Engineer</title>
+    <title>Eduardo Benck | DevOps Engineer</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Eduardo Benck</h1>
-            <h2>DevOps Engineer | Cloud Specialist</h2>
-            <div class="contact-info">
-                <p><i class="fas fa-phone"></i> +55 61 99159-7616</p>
-                <p><i class="fas fa-envelope"></i> benckeduardo65@gmail.com</p>
-            </div>
-        </div>
-    </header>
+    <div class="page-wrapper">
+        <!-- Animated Background -->
+        <div class="animated-bg"></div>
+        
+        <!-- Floating Particles -->
+        <div class="particles" id="particles-js"></div>
+        
+        <!-- Main Content -->
+        <div class="content-wrapper">
+            <!-- Header Section -->
+            <header class="glass-card">
+                <div class="container">
+                    <div class="header-content">
+                        <div class="profile-image">
+                            <div class="image-wrapper">
+                                <!-- Placeholder for your photo -->
+                                <div class="initials">EB</div>
+                            </div>
+                        </div>
+                        <div class="header-text">
+                            <h1>Eduardo Benck</h1>
+                            <h2 class="typed-text" data-typed-items="DevOps Engineer, Cloud Specialist, Kubernetes Expert, Infrastructure Architect"></h2>
+                            <div class="contact-info">
+                                <p><i class="fas fa-phone"></i> +55 61 99159-7616</p>
+                                <p><i class="fas fa-envelope"></i> benckeduardo65@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>DevOps Engineer with experience in cloud architecture, container orchestration, and infrastructure automation. Passionate about creating efficient, scalable systems and implementing CI/CD pipelines. Currently pursuing a Bachelor's degree in Computer Engineering while gaining hands-on experience in the field.</p>
-        </div>
-    </section>
-
-    <section id="experience" class="section">
-        <div class="container">
-            <h2>Professional Experience</h2>
-            
-            <div class="job">
-                <h3>SEA Tecnologia, Brasília</h3>
-                <h4>DevOps Engineer</h4>
-                <p class="date">November 2023 - Present</p>
-                <ul>
-                    <li>Analyzed technical infrastructure based on client requirements</li>
-                    <li>Designed complex cloud architectures and provided guidance to the infrastructure team</li>
-                    <li>Managed Liferay environments on OpenShift and Kubernetes clusters</li>
-                    <li>Installed and configured application and web servers</li>
-                    <li>Deployed highly available Liferay portals</li>
-                    <li>Performed Linux server administration and cloud resource management (OCI)</li>
-                    <li>Developed and implemented CI/CD pipelines</li>
-                    <li>Created and managed Infrastructure as Code (IaC) solutions using Terraform</li>
-                    <li>Monitored systems using Zabbix and Prometheus</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Central IT, Brasília</h3>
-                <h4>Operations and Remote Support Technician</h4>
-                <p class="date">April 2023 - September 2023</p>
-                <ul>
-                    <li>Provided client support and training</li>
-                    <li>Maintained networks and configured routers and switches</li>
-                    <li>Installed and configured company software and systems</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>FUNCEF, Brasília</h3>
-                <h4>IT Intern</h4>
-                <p class="date">September 2022 - April 2023</p>
-                <ul>
-                    <li>Supported users with software and hardware issues</li>
-                    <li>Installed and configured IT equipment and software</li>
-                    <li>Logged and escalated helpdesk tickets to second and third-level support</li>
-                    <li>Provided remote desktop support</li>
-                    <li>Maintained desktops and notebooks</li>
-                    <li>Created documentation and knowledge base articles for support activities</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>IESB, Brasília</h3>
-                <h4>3D Development and Printing Intern</h4>
-                <p class="date">June 2022 - November 2022</p>
-                <ul>
-                    <li>Developed automation systems based on microcontrollers (Arduino/C++)</li>
-                    <li>Documented project requirements and circuit architecture</li>
-                    <li>Managed budgeting and procurement activities</li>
-                    <li>Modeled and printed 3D components</li>
-                    <li>Maintained 3D printers</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>IESB, Brasília</h3>
-                <h4>IT Intern</h4>
-                <p class="date">March 2022 - June 2022</p>
-                <ul>
-                    <li>Supported users with IT equipment and software</li>
-                    <li>Installed and configured desktops and software</li>
-                    <li>Managed and escalated helpdesk tickets</li>
-                    <li>Performed maintenance on desktops and notebooks</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>University CEUB, Brasília</h3>
-                <h4>Bachelor's Degree in Computer Engineering</h4>
-                <p class="date">June 2021 - Expected Graduation: June 2025 (Currently in 5th semester)</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Cloud</h3>
+            <!-- Navigation -->
+            <nav class="glass-nav">
+                <div class="container">
                     <ul>
-                        <li>Azure</li>
-                        <li>AWS</li>
-                        <li>Oracle Cloud</li>
+                        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                        <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
                     </ul>
                 </div>
-                
-                <div class="skill-category">
-                    <h3>Containers & Orchestration</h3>
-                    <ul>
-                        <li>Docker</li>
-                        <li>Kubernetes</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Infrastructure as Code</h3>
-                    <ul>
-                        <li>Terraform</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Operating Systems</h3>
-                    <ul>
-                        <li>Linux</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>CI/CD</h3>
-                    <ul>
-                        <li>GitHub Actions</li>
-                        <li>GitLab CI</li>
-                        <li>Jenkins</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Version Control</h3>
-                    <ul>
-                        <li>Git</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+            </nav>
 
-    <section id="certifications" class="section">
-        <div class="container">
-            <h2>Certifications</h2>
-            <ul class="certifications-list">
-                <li>HDI DAST</li>
-                <li>Microsoft AZ-900: Azure Fundamentals</li>
-                <li>AWS Certified Cloud Practitioner</li>
-                <li>Certified Kubernetes Administrator (CKA)</li>
-            </ul>
-        </div>
-    </section>
+            <!-- About Section -->
+            <section id="about" class="section glass-card">
+                <div class="container">
+                    <h2 class="section-title"><span>About Me</span></h2>
+                    <div class="about-content">
+                        <p>Innovative DevOps Engineer with a passion for building robust cloud architectures and automating infrastructure. I specialize in creating scalable systems using cutting-edge technologies like Kubernetes, Terraform, and CI/CD pipelines.</p>
+                        <p>Currently pursuing my Bachelor's degree in Computer Engineering while applying my knowledge to real-world challenges in cloud computing and infrastructure automation.</p>
+                        <div class="signature">Eduardo Benck</div>
+                    </div>
+                </div>
+            </section>
 
-    <section id="languages" class="section">
-        <div class="container">
-            <h2>Languages</h2>
-            <ul class="languages-list">
-                <li>English: Intermediate</li>
-                <li>Spanish: Intermediate</li>
-            </ul>
-        </div>
-    </section>
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <div class="container">
+                    <h2 class="section-title"><span>Professional Journey</span></h2>
+                    
+                    <div class="timeline">
+                        <!-- Current Job -->
+                        <div class="timeline-item">
+                            <div class="timeline-point active"></div>
+                            <div class="timeline-content glass-card">
+                                <div class="timeline-date">Nov 2023 - Present</div>
+                                <h3>DevOps Engineer</h3>
+                                <h4>SEA Tecnologia, Brasília</h4>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i> Designed complex cloud architectures and provided guidance to infrastructure team</li>
+                                    <li><i class="fas fa-chevron-right"></i> Managed Liferay environments on OpenShift and Kubernetes clusters</li>
+                                    <li><i class="fas fa-chevron-right"></i> Developed CI/CD pipelines and Infrastructure as Code solutions with Terraform</li>
+                                    <li><i class="fas fa-chevron-right"></i> Monitored systems using Zabbix and Prometheus</li>
+                                </ul>
+                                <div class="tech-tags">
+                                    <span>Kubernetes</span>
+                                    <span>Terraform</span>
+                                    <span>OCI</span>
+                                    <span>Prometheus</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Previous Jobs -->
+                        <div class="timeline-item">
+                            <div class="timeline-point"></div>
+                            <div class="timeline-content glass-card">
+                                <div class="timeline-date">Apr 2023 - Sep 2023</div>
+                                <h3>Operations and Remote Support Technician</h3>
+                                <h4>Central IT, Brasília</h4>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i> Provided client support and training</li>
+                                    <li><i class="fas fa-chevron-right"></i> Maintained networks and configured routers/switches</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-point"></div>
+                            <div class="timeline-content glass-card">
+                                <div class="timeline-date">Sep 2022 - Apr 2023</div>
+                                <h3>IT Intern</h3>
+                                <h4>FUNCEF, Brasília</h4>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i> Supported users with hardware/software issues</li>
+                                    <li><i class="fas fa-chevron-right"></i> Created documentation and knowledge base articles</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-point"></div>
+                            <div class="timeline-content glass-card">
+                                <div class="timeline-date">Jun 2022 - Nov 2022</div>
+                                <h3>3D Development and Printing Intern</h3>
+                                <h4>IESB, Brasília</h4>
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i> Developed automation systems with Arduino/C++</li>
+                                    <li><i class="fas fa-chevron-right"></i> Modeled and printed 3D components</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Eduardo Benck. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://github.com/s0beran0" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/eduardo-benck-824208222/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="container">
+                    <h2 class="section-title"><span>Technical Expertise</span></h2>
+                    <div class="skills-grid">
+                        <!-- Cloud Skills -->
+                        <div class="skill-category glass-card">
+                            <div class="skill-header">
+                                <i class="fas fa-cloud"></i>
+                                <h3>Cloud Platforms</h3>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill" data-percent="85">
+                                    <span class="skill-name">Azure</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill" data-percent="80">
+                                    <span class="skill-name">AWS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill" data-percent="75">
+                                    <span class="skill-name">Oracle Cloud</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Container Skills -->
+                        <div class="skill-category glass-card">
+                            <div class="skill-header">
+                                <i class="fas fa-boxes"></i>
+                                <h3>Containers & Orchestration</h3>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill" data-percent="90">
+                                    <span class="skill-name">Kubernetes</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill" data-percent="85">
+                                    <span class="skill-name">Docker</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill" data-percent="80">
+                                    <span class="skill-name">OpenShift</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IaC Skills -->
+                        <div class="skill-category glass-card">
+                            <div class="skill-header">
+                                <i class="fas fa-code"></i>
+                                <h3>Infrastructure as Code</h3>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill" data-percent="88">
+                                    <span class="skill-name">Terraform</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CI/CD Skills -->
+                        <div class="skill-category glass-card">
+                            <div class="skill-header">
+                                <i class="fas fa-sync-alt"></i>
+                                <h3>CI/CD Pipelines</h3>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill" data-percent="85">
+                                    <span class="skill-name">GitHub Actions</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill" data-percent="80">
+                                    <span class="skill-name">GitLab CI</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill" data-percent="75">
+                                    <span class="skill-name">Jenkins</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="container">
+                    <h2 class="section-title"><span>Education</span></h2>
+                    <div class="education-container">
+                        <div class="education-card glass-card">
+                            <div class="edu-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="edu-content">
+                                <h3>Bachelor's Degree in Computer Engineering</h3>
+                                <h4>University CEUB, Brasília</h4>
+                                <div class="edu-date">June 2021 - June 2025 (Expected)</div>
+                                <div class="progress-container">
+                                    <div class="progress-text">Current Progress: 5th Semester</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 62.5%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <div class="container">
+                    <h2 class="section-title"><span>Certifications</span></h2>
+                    <div class="cert-grid">
+                        <div class="cert-card glass-card">
+                            <div class="cert-badge cka">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h3>Certified Kubernetes Administrator (CKA)</h3>
+                                <p>Cloud Native Computing Foundation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card glass-card">
+                            <div class="cert-badge azure">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h3>Microsoft AZ-900: Azure Fundamentals</h3>
+                                <p>Microsoft</p>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card glass-card">
+                            <div class="cert-badge aws">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h3>AWS Certified Cloud Practitioner</h3>
+                                <p>Amazon Web Services</p>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card glass-card">
+                            <div class="cert-badge hdi">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h3>HDI DAST</h3>
+                                <p>HDI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="glass-card">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-left">
+                            <h3>Let's Connect</h3>
+                            <p>Interested in working together or have questions about my experience?</p>
+                        </div>
+                        <div class="footer-right">
+                            <div class="social-links">
+                                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:benckeduardo65@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="tel:+5561991597616"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2023 Eduardo Benck. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
